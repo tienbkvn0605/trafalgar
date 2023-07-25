@@ -1,0 +1,27 @@
+.landding {
+    margin-bottom: 150px;
+    &-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 220px;
+        &:last-child{
+            flex-direction:  row-reverse;
+            & .landding-content {
+                margin-right: 130px;
+            }
+        }
+    }
+    padding-top: 220px;
+    &-content {
+        margin-left: 137px;
+    }
+    &-title {
+        padding-bottom: 20px;
+    }
+    &-desc {
+        display: block;
+        margin-top: 20px;
+        padding-bottom: 37px;
+    }
+   
+}

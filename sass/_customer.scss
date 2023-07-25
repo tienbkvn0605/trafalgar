@@ -1,0 +1,27 @@
+.customer{
+    background-color: $primary-color;
+    border-radius: 25px;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 30px;
+    }
+    &-account {
+        display: flex;
+        align-items: center;
+    }
+    &-comment {
+        display: block;
+    }
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
